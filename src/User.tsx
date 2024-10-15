@@ -66,23 +66,20 @@ const ProjectInfo = [
     },
 ]
 
-const SkillInfo = [
+const ServiceInfo = [
     {
-        title: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS", "Material UI", "Bootstrap"]
+        title: "Web Development",
+        services: ["We build responsive and interactive websites using PHP, HTML, CSS, React.js, and WordPress, complemented by frameworks like Bootstrap, Tailwind CSS, and Material UI. Our focus is on delivering tailored solutions that enhance user experience and meet client goals."]
     },
     {
-        title: "Backend",
-        skills: ["Django", "Flutter", "MySQL", "MongoDB", "Firebase", "PostgreSQL", "Node JS", "Express JS", "Sqlite", "Redis" ]
+        title: "App Backend",
+        services: ["We build responsive and interactive websites using PHP, HTML, CSS, React.js, and WordPress, complemented by frameworks like Bootstrap, Tailwind CSS, and Material UI. Our focus is on delivering tailored solutions that enhance user experience and meet client goals." ]
     },
     {
-        title: "Language",
-        skills: ["C", "C++", "Python", "Dart", "PHP", "JavaScript", "TypeScript" ]
+        title: "Digital Marketing",
+        services: ["We build responsive and interactive websites using PHP, HTML, CSS, React.js, and WordPress, complemented by frameworks like Bootstrap, Tailwind CSS, and Material UI. Our focus is on delivering tailored solutions that enhance user experience and meet client goals." ]
     },
-    {
-        title: "Tools",
-        skills: ["Git", "Github", "Linux", "VS Code", "MongoDB Compass", "Postman", "Django Rest Framework", "Numpy", "Matplotlib", "Pandas", "TensorFlow", "Xampp", "Shared Hosting" ]
-    }
+    
 ]
 
 const ExperienceInfo = [
@@ -91,14 +88,14 @@ const ExperienceInfo = [
         company: "Zap Web Media Solutionz",
         date: "Dec 2022 - 2023",
         desc: "As a Web Application Developer at Zap Solutionz, I am responsible for designing, developing, and maintaining dynamic web applications. My role involves collaborating with cross-functional teams to create user-friendly interfaces and ensure seamless functionality. I utilize various technologies to deliver high-quality solutions that meet client requirements and enhance user experience.",
-        skills: ["Django", "Python", "HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "MySQL", "XAMPP"]
+        services: ["Django", "Python", "HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "MySQL", "XAMPP"]
     },
     {
         role: "Flutter Developer",
         company: "Zap Solutionz",
         date: "Dec 2023 - Present",
         desc: "As a Flutter Developer at Zap Solutionz, I am responsible for designing and building cross-platform mobile applications that provide an engaging user experience. My role involves collaborating with product teams to define application features and ensure high performance across various devices. I leverage the Flutter framework and Dart programming language to deliver high-quality, maintainable code.",
-        skills: ["Flutter", "Dart", "Firebase", "REST API", "Git"]
+        services: ["Flutter", "Dart", "Firebase", "REST API", "Git"]
     }
 ]
 const socialLinks = [{link:"https://github.com/aamirk1", icon:IconBrandGithub}, {link:"https://in.linkedin.com/in/technosolz", icon:IconBrandLinkedin}, {link:"https://instagram.com/technosolz01", icon:IconBrandInstagram}, {link:"https://facebook.com/technosolz01", icon:IconBrandFacebook}];
@@ -132,5 +129,5 @@ const Slugs = [
     // "sonarqube",
     // "figma",
   ];
-export { Info, ProjectInfo, SkillInfo, ExperienceInfo, socialLinks, Slugs };
+export { Info, ProjectInfo, ServiceInfo, ExperienceInfo, socialLinks, Slugs };
 

@@ -7,7 +7,7 @@ const Projects = () => {
       <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl font-bold mb-10 text-center text-white">
         <span className="text-primaryColor">02. &nbsp;</span>Projects
       </h1>
-      <div className="flex flex-wrap justify-around gap-4 md-mx:gap-2 md-mx:justify-between sm-mx:justify-center">
+      <div className="flex flex-wrap justify-around gap-3 md-mx:gap-2 md-mx:justify-between sm-mx:justify-center">
         {ProjectInfo.map((project: any, index: number) => (
           <ProjectCard
             key={index}

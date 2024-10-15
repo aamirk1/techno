@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react"
 import About from "./About"
 import Contact from "./Contact"
-import Experience from "./Experience"
 import Footer from "./Footer"
 import Header from "./Header"
-import { Loader } from "./Loader"
 import Mail from "./Mail"
 import Projects from "./Projects"
-import Skills from "./Skills"
+import Skills from "./Services"
 import Social from "./Social"
 
 const HomePage = () => {
@@ -25,7 +23,7 @@ const HomePage = () => {
             <About />
             <Projects />
             <Skills />
-            <Experience />
+            {/* <Experience /> */}
             <Contact />
             <Footer />
             <Mail />

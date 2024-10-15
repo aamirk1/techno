@@ -66,19 +66,23 @@ const ProjectInfo = [
     },
 ]
 
-const ServiceInfo = [
+const SkillInfo = [
     {
-        title: "Web Development",
-        services: ["We build responsive and interactive websites using PHP, HTML, CSS, React.js, and WordPress, complemented by frameworks like Bootstrap, Tailwind CSS, and Material UI. Our focus is on delivering tailored solutions that enhance user experience and meet client goals."]
+        title: "Frontend",
+        skills: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS", "Material UI", "Bootstrap"]
     },
     {
-        title: "App Backend",
-        services: ["We build responsive and interactive websites using PHP, HTML, CSS, React.js, and WordPress, complemented by frameworks like Bootstrap, Tailwind CSS, and Material UI. Our focus is on delivering tailored solutions that enhance user experience and meet client goals." ]
+        title: "Backend",
+        skills: ["Django", "Flutter", "MySQL", "MongoDB", "Firebase", "PostgreSQL", "Node JS", "Express JS", "Sqlite", "Redis" ]
     },
     {
-        title: "Digital Marketing",
-        services: ["We build responsive and interactive websites using PHP, HTML, CSS, React.js, and WordPress, complemented by frameworks like Bootstrap, Tailwind CSS, and Material UI. Our focus is on delivering tailored solutions that enhance user experience and meet client goals." ]
+        title: "Language",
+        skills: ["C", "C++", "Python", "Dart", "PHP", "JavaScript", "TypeScript" ]
     },
+    {
+        title: "Tools",
+        skills: ["Git", "Github", "Linux", "VS Code", "MongoDB Compass", "Postman", "Django Rest Framework", "Numpy", "Matplotlib", "Pandas", "TensorFlow", "Xampp", "Shared Hosting" ]
+    }
     
 ]
 
@@ -129,5 +133,5 @@ const Slugs = [
     // "sonarqube",
     // "figma",
   ];
-export { Info, ProjectInfo, ServiceInfo, ExperienceInfo, socialLinks, Slugs };
+export { Info, ProjectInfo,  ExperienceInfo, socialLinks, Slugs, SkillInfo };
 

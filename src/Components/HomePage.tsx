@@ -5,7 +5,7 @@ import Footer from "./Footer"
 import Header from "./Header"
 import Mail from "./Mail"
 import Projects from "./Projects"
-import Skills from "./Services"
+import Skills from "./Skills"
 import Social from "./Social"
 
 const HomePage = () => {
